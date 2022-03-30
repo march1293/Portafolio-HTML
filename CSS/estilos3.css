@@ -1,0 +1,30 @@
+body {
+            font-family: sans-serif;
+            color: rgb(233, 230, 235);
+            background: rgb(66, 78, 110);
+        }
+        
+        h2 {
+            font-family: cursive;
+            color: rgb(228, 237, 228);
+             background-color: rgb(24, 89, 15);
+        }  
+        
+        #miblog{
+            background-color: rgb(24, 89, 15);
+        }
+        
+        p {
+            color: rgb(235, 240, 236);
+            font-family: "Helvetica", sans-serif;
+        }
+        
+        .contenido {
+            color:rgb(242, 234, 242) ;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        a {
+            text-decoration: none;
+        }

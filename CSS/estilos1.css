@@ -1,0 +1,38 @@
+body{
+        background: rgb(5, 5, 5);
+    }
+        h1{
+        color: rgb(250, 245, 250);
+       
+        font-family: "Verdana", Sans-serif;
+        }
+        h3{
+         color: rgb(136, 235, 227);
+        background: rgb(31, 77, 35);
+        font-family: "Verdana", Sans-serif;   
+        }
+        h4{
+        color: rgb(250, 245, 250);
+        background: rgb(30, 43, 115);
+        font-family: "Verdana", Sans-serif;
+        }  
+        h2{
+        color: rgb(245, 245, 245);
+        background: rgb(31, 77, 35);
+        font-family: "Verdana", Sans-serif;
+        }
+        #informacion{
+         color: rgb(45, 204, 63);  
+         font-family: "Verdana", Sans-serif;
+        }
+        p{
+            color: rgb(247, 247, 247);
+        }
+        li{
+        color: rgb(37, 173, 157) ;
+        font-family: "Verdana", Sans-serif;
+        }
+        .Tours{
+           color: rgb(37, 173, 157) ;
+        font-family: "Verdana", Sans-serif; 
+        }

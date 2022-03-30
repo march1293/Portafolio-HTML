@@ -1,0 +1,22 @@
+body{
+               background:rgb(27, 201, 224); 
+            }
+            h1{
+                background:rgb(28, 29, 77);
+                color: rgb(255, 255, 255);
+                font-family: Cambria;
+            }
+            h2{
+                color:rgb(28, 29, 77);
+                font-family: Cambria;
+            }
+            table,th,td
+            {
+                background-color:rgb(28, 29, 77);
+                color:rgb(245, 245, 245); 
+                font-family: Cambria;
+            }
+            .pasos{
+                color:rgb(28, 29, 77);
+                font-family: Cambria;
+            }
