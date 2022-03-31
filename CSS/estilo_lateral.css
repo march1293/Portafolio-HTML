@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+.lateral {
+    background-color: #252850;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 350px;
+}
+
+/* Perfil */
+
+.perfil__circulo{
+    border-radius: 50%;
+    height: 50px;
+    overflow: hidden;
+    margin: 0;
+    width: 50px;
+}
+
+.perfil__foto{
+    width:100%;
+}
+
+.perfil__nombres{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 0.5em;
+    width: 250px;
+}
+
+.perfil__nombres, .perfil__circulo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Información */
+.informacion{
+    color: white;
+    position: absolute;
+    bottom: 1em;
+}
+
+.informacion__titulo{
+    font-size: 18px;
+}
+
+/* Habilidad */
+
+.habilidades{
+    padding: 0;
+}
+
+.habilidad{
+    background-color: #0f6a62;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+.habilidad--proyecto{
+    background-color: #29597C;
+    color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
