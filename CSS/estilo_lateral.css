@@ -6,6 +6,16 @@ html{
     font-family: 'Lato', sans-serif;
 }
 
+@media screen and (max-width: 350px) and (min-height: 571px) {
+    .informacion{
+        position: absolute;
+        bottom: 2em;
+    }
+}
+
+
+
+
 .lateral {
     background-color: #252850;
     bottom: 0;
@@ -13,17 +23,17 @@ html{
     padding: 1em;
     position: fixed;
     top: 0;
-    width: 350px;
+    width: 100%;
 }
 
 /* Perfil */
 
 .perfil__circulo{
     border-radius: 50%;
-    height: 50px;
+    height: 3.3em;
     overflow: hidden;
     margin: 0;
-    width: 50px;
+    width: 3.3em;
 }
 
 .perfil__foto{
@@ -32,9 +42,9 @@ html{
 
 .perfil__nombres{
     color: #fff;
-    font-size: 20px;
+    font-size: 1.25em;
     margin-left: 0.5em;
-    width: 250px;
+    width: 60%;
 }
 
 .perfil__nombres, .perfil__circulo{
@@ -50,7 +60,7 @@ html{
 }
 
 .informacion__titulo{
-    font-size: 18px;
+    font-size: 1.13em;
 }
 
 /* Habilidad */
@@ -63,7 +73,7 @@ html{
     background-color: #0f6a62;
     color: #fff;
     display: inline-block;
-    font-size: 12px;
+    font-size: 0.80em;
     padding: 0.5em;
     text-transform: uppercase;
 }
@@ -72,7 +82,7 @@ html{
     background-color: #29597C;
     color: #fff;
     display: inline-block;
-    font-size: 12px;
+    font-size: 0.80em;
     padding: 0.5em;
     text-transform: uppercase;
 }
