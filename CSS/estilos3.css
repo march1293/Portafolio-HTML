@@ -23,7 +23,6 @@ body {
     
 }
 
-/* PROPIEDADES DE CONTENIDO SEGÚN ANCHO DE PANTALLA */
 
 @media screen and (max-width: 780px) {
 
@@ -41,18 +40,18 @@ body {
 
 @media (min-width: 780px) {
 
-    /* Posicion para barra lateral */
+  
     .lateral{
         position: fixed;
-        width:20%;
+        width:21%;
         height: 100%;
     }
 
-    /* Contenedor sin barra */
+ 
     .contenedor{
         float: right;
         margin: 0.5em;
-        width: 80%;
+        width: 78%;
     }  
     
 }

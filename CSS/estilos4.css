@@ -15,17 +15,30 @@
     .lateral{
         width:100%;
         height: 20em;
+          background-color: rgb(83, 102, 120);
+                padding: 1.5em;
+                padding-bottom: 1.5em;
+                margin: 0.65em;
+                top:5em;
+                left:15em;
+                z-index: 1;
     }
     
 }
 
-/* PROPIEDADES DE CONTENIDO SEGÚN ANCHO DE PANTALLA */
 
 @media screen and (max-width: 780px) {
 
     /* Contenedor sin barra */
-    .contenedor{
+    .fondo{
         width: 100%;
+          background-color: rgb(83, 102, 120);
+                padding: 1.5em;
+                padding-bottom: 1.5em;
+                margin: 0.65em;
+                top:5em;
+                left:15em;
+                z-index: 1;
     }
 
     /* Seccion */
@@ -37,7 +50,6 @@
 
 @media (min-width: 780px) {
 
-    /* Posicion para barra lateral */
     .lateral{
         position: fixed;
         width:20%;
@@ -45,30 +57,52 @@
     }
 
     /* Contenedor sin barra */
-    .contenedor{
+    .fondo{
         float: right;
         margin: 0.5em;
         width: 80%;
-    }  
-    
-}
-
-
-.fondo{
                 background-color: rgb(83, 102, 120);
-                padding: 25px;
-                padding-bottom: 25px;
-                margin: 10px;
-                
-                position: absolute;
+                padding: 1.5em;
+                padding-bottom: 1.5em;
+                margin: 0.65em;
                 top:5em;
                 left:15em;
                 z-index: 1;
             }
+
+            .detalles{
+                position: absolute;
+                width: 30%;
+                top: 29em;
+                left: 30em;
+                font-family: "Georgia",serif;
+                margin-left: 3.75em;
+                padding:0.65em;
+                z-index: 2;
+                background: rgb(20, 28, 51);
+                color: rgb(231, 240, 238);
+                border-radius: 1.85em;
+
+    }  
+
+    #extra{
+            background-color: rgb(21, 22, 23);
+            color: white;
+            position: absolute;
+            top: 24em;
+            left: 9em;
+            font-size: 3em;
+            }
+        }
+    
+
+
+
+
             #marco_invitacion{
                 position: absolute;
-                top:20px;
-                left:80px;
+                top:1.25em;
+                left:5em;
                 z-index: 2;
                 width: 100%;
                 
@@ -80,39 +114,19 @@
                 text-align: center;
                 z-index:4;
             }
-            .detalles{
-                position: absolute;
-                top: 28em;
-                left: 13em;
-                font-family: "Georgia",serif;
-                margin-left: 60px;
-                padding:10px;
-                z-index: 2;
-                background: rgb(20, 28, 51);
-                color: rgb(231, 240, 238);
-                border-radius: 30px;
-
-               
-            }
+            
             #informacion{
                 text-align: center;  
                 margin-top: 40%;
                 position: absolute;
-                top:300px;
+                top:19em;
                 font-size: 0.5em;
                
             }
             #volcan{
 
-                width: 50%;
+                width: 35%;
                 position: absolute;
-                left: 150px;
+                left: 20em;
             }
-            #extra{
-            background-color: rgb(21, 22, 23);
-            color: white;
-            position: absolute;
-            top: 28em;
-            left: 5em;
-            font-size: 3em;
-            }
+            
