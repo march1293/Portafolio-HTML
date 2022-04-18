@@ -15,13 +15,7 @@
     .lateral{
         width:100%;
         height: 20em;
-          background-color: rgb(83, 102, 120);
-                padding: 1.5em;
-                padding-bottom: 1.5em;
-                margin: 0.65em;
-                top:5em;
-                left:15em;
-                z-index: 1;
+          
     }
     
 }
