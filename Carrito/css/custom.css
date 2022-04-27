@@ -2,7 +2,8 @@ html {
     font-size: 62.5%;
 }
 body {
-    background-color: #f5f3f3
+    background-color: #dad5f0
+
 }
 h1 {
     text-align: center;
@@ -88,7 +89,7 @@ ul {
     list-style: none;
 }
 #hero {
-    background-image:url(../img/hero.jpg);
+    background-image:url(../img/1.png);
     height: 350px;
     background-size: cover;
 }
@@ -129,7 +130,7 @@ ul {
     position: relative;
     margin-bottom: 0;
 }
-.contenido-hero form #buscador {
+/*.contenido-hero form #buscador {
     height: 50px;
     margin-bottom: 0;
 }
@@ -146,15 +147,15 @@ ul {
     background-position: right center;
     background-repeat: no-repeat;
     border:none;
-}
+}*/
 
 
 .barra {
     padding: 20px 0;
-    background: #1d1d74; /* Old browsers */
-    background: -moz-linear-gradient(left, #1d1d74 0%, #41416e 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #1d1d74 0%,#41416e 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #1d1d74 0%,#41416e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: #2929754; /* Old browsers */
+    background: -moz-linear-gradient(left, #292975 0%, #41416e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #292975 0%,#41416e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #292975 0%,#41416e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d1d74', endColorstr='#41416e',GradientType=1 ); /* IE6-9 */
 }
 
@@ -226,10 +227,12 @@ ul {
 .footer {
     margin-top: 40px;
     border-top:1px solid #aaa;;
-    padding-top: 40px;   
+    padding-top: 40px; 
+    color: black;  
 }
 .footer .menu a{
 display: block;
 margin-bottom: 10px;
 text-decoration: none;
+color: black;
 }

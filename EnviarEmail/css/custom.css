@@ -1,7 +1,7 @@
 body {
-    background: #43cea2;
-    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
-    background: linear-gradient(to right, #185a9d, #43cea2); 
+    background: #78c9fa;
+    background: -webkit-linear-gradient(to right, #295773, #78c9fa);
+    background: linear-gradient(to right, #295773, #78c9fa); 
 }
 
 @media screen and (max-width: 300px) {
