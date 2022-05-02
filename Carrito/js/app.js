@@ -15,6 +15,12 @@ function cargarEventListeners() {
      // Cuando se elimina un curso del carrito
      carrito.addEventListener('click', eliminarCurso);
 
+     //muestra los cursos en local storage
+     document.addEventListener('DOMContentLoaded', ()=>{
+          articulosCarrito = JSON.parse(localStorage.getItem('carrito'))|| [];
+          carritoHTML();
+     })
+
      // Al Vaciar el carrito
      vaciarCarritoBtn.addEventListener('click', ()=>{
           articulosCarrito=[];// resetea arreglo
@@ -23,7 +29,7 @@ function cargarEventListeners() {
 
 }
 
-// -------Funciones--------
+//funciones
 
 // Función que añade el curso al carrito
 function agregarCurso(e) {
@@ -112,6 +118,14 @@ function carritoHTML() {
           // agrega el html del carrito en el tbody
           contenedorCarrito.appendChild(row);
      });
+
+     //agregar carrito de compras al storege
+
+     sincronizarStorage();
+
+     function sincronizarStorage(){
+          localStorage.setItem('carrito', JSON.stringify(articulosCarrito));
+     }
 
 }
 
