@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Lato', sans-serif;
+}
+
+@media screen and (max-width: 350px) and (min-height: 571px) {
+    .informacion{
+        position: absolute;
+        bottom: 2em;
+    }
+}
+
+
+
+
+.lateral {
+    background-color: #252850;
+    bottom: 0;
+    left: 0;
+    padding: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Perfil */
+
+.perfil__circulo{
+    border-radius: 50%;
+    height: 3.3em;
+    overflow: hidden;
+    margin: 0;
+    width: 3.3em;
+}
+
+.perfil__foto{
+    width:100%;
+}
+
+.perfil__nombres{
+    color: #fff;
+    font-size: 1.25em;
+    margin-left: 0.5em;
+    width: 60%;
+}
+
+.perfil__nombres, .perfil__circulo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Información */
+.informacion{
+    color: white;
+    position: absolute;
+    bottom: 1em;
+    font-size:0.80em;
+}
+
+.informacion__titulo{
+    font-size: 1.13em;
+}
+
+/* Habilidad */
+
+.habilidades{
+    padding: 0;
+}
+
+.habilidad{
+    background-color: #0f6a62;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.80em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
+
+.habilidad--proyecto{
+    background-color: #29597C;
+    color: #fff;
+    display: inline-block;
+    font-size: 0.80em;
+    padding: 0.5em;
+    text-transform: uppercase;
+}
